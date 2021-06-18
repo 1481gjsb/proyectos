@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace BL.proyecto
 {
     public class seguridadBL
-    {
+    {   
         public bool Autorizar(string usuario, string contrasena)
         {
             if (usuario == "admin" && contrasena == "123")
