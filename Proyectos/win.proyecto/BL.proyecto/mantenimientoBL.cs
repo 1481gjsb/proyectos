@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BL.proyecto 
+namespace BL.proyecto
 {
     public class mantenimientoBL
     {
