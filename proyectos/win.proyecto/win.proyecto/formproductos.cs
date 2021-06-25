@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BL.proyecto;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,18 @@ namespace win.proyecto
 {
     public partial class formproductos : Form
     {
+        ProductosBL _productos;
         public formproductos()
         {
             InitializeComponent();
+
+            _productos = new ProductosBL();
+            listaProductosBindingSource.DataSource = _productos.obtenerproductos();
+        }
+
+        private void formproductos_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

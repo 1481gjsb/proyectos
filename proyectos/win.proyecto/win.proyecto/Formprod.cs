@@ -16,5 +16,10 @@ namespace win.proyecto
         {
             InitializeComponent();
         }
+
+        private void Formprod_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

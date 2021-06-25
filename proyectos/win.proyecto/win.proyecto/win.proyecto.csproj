@@ -102,6 +102,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formant.resx">
+      <DependentUpon>Formant.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formclient.resx">
       <DependentUpon>Formclient.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formmenu.resx">
       <DependentUpon>formmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formprod.resx">
+      <DependentUpon>Formprod.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formproductos.resx">
       <DependentUpon>formproductos.cs</DependentUpon>
@@ -124,6 +130,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="Properties\DataSources\BL.proyecto.mantenimientoBL+manteni.datasource" />
+    <None Include="Properties\DataSources\BL.proyecto.mantenimientoBL.datasource" />
+    <None Include="Properties\DataSources\BL.proyecto.ProductosBL.datasource" />
+    <None Include="Properties\DataSources\BL.proyecto.seguridadBL.datasource" />
+    <None Include="Properties\DataSources\producto.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

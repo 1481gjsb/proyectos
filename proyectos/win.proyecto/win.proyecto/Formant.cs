@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BL.proyecto;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,13 @@ namespace win.proyecto
 {
     public partial class Formant : Form
     {
+        mantenimientoBL _mantenimient;
         public Formant()
         {
             InitializeComponent();
+
+            _mantenimient = new mantenimientoBL();
+            mantenimientoBL_manteniBindingSource.DataSource = _mantenimient.obtenermantenimientos();
         }
     }
 }
