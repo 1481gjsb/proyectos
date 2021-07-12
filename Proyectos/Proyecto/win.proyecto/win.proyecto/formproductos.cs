@@ -41,6 +41,7 @@ namespace win.proyecto
             {
                 listaProductosBindingSource.ResetBindings(false);
                 DeshabilitarHabilitarBotones(true);
+                MessageBox.Show("producto guardado");
 
             }
             else
